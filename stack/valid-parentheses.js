@@ -13,8 +13,6 @@ var isValid = function (s) {
     for (const char of s) {
         if (char === '(' || char === '[' || char === '{') {
             stack.push(char);
-            console.log('stack ', stack);
-            
         } else {
             if (stack.pop() !== map[char]) {
                 return false;
