@@ -7,14 +7,7 @@ var removeElement = function(nums, val) {
     let k = 0;
 
     for (let i = 0; i < nums.length; i++) {
-        if (nums[i] !== val) {
-            console.log('i ', i);
-            console.log('k ', k);
-            console.log('nums[i] ', nums[i]);
-            console.log('nums[k] ', nums[k]);
-            
-            
-            
+        if (nums[i] !== val) {   
             nums[k] = nums[i];
             k++;
         }
