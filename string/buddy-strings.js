@@ -28,3 +28,9 @@ var buddyStrings = function(s, goal) {
         s[diffs[1]] === goal[diffs[0]]
     );
 };
+
+const s = 'ab';
+const goal = 'ba';
+
+console.log(buddyStrings(s, goal));
+
