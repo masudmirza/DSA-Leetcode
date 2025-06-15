@@ -36,9 +36,6 @@ var maxLengthBetweenEqualCharacters2 = function(s) {
         } else {
             firstIndex[s[i]] = i;
         }
-
-        console.log('firstIndex ', firstIndex);
-        
     }
 
     return maxLen;
