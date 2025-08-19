@@ -14,8 +14,6 @@ var removeDuplicates = function(nums) {
         }
     }
 
-    console.log('unique array ', nums.slice(0, k));
-
     return k;
 };
 
